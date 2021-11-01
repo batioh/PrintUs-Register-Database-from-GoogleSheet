@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PrintUs</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style1.css" rel="stylesheet">
+  <link href="css/style2.css" rel="stylesheet">
+  <link href="css/style4.css" rel="stylesheet">
+
+
+</head>
+<body>
+     <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <h1 class="text-light"><a href="in.html"><span>PrintUs</span></a></h1>
+       
+      </div>
+
+      <nav class="nav-menu float-right d-none d-lg-block">
+        <ul>
+          
+        
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <section class="vh-100" style="background-color: #eee;">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-12 col-xl-11">
+          <div class="card text-black" style="border-radius: 25px;">
+            <div class="card-body p-md-5">
+              <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+  
+                  <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+  
+                  <form class="mx-1 mx-md-4" name="register-google-sheet" method="post"  onsubmit="return validation()">
+  
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                      <div class="form-outline flex-fill mb-0">
+                        <input type="text" name="First Name" class="form-control" placeholder=" Enter first name"  id="firstname">  
+                        <span id="firstnameerror" class="form-lable"  style="color: red;"></span>
+                      </div>
+                    </div>
+  
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                      <div class="form-outline flex-fill mb-0">
+                        <input type="text" name="Last Name" class="form-control" placeholder=" Enter last name" id="lastName" > 
+                        <span id="lastnameerror" style="color: red;"></span>  
+                      </div>
+                    </div>
+  
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                      <div class="form-outline flex-fill mb-0">
+                        <input type="Email" name="Email" class="form-control" placeholder=" Enter email" id="email"> 
+                        <span id="emailerror" style="color: red;"></span>  
+                      </div>
+                    </div>
+
+
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                      <div class="form-outline flex-fill mb-0">
+                        <input type="Password" name="Password" class="form-control" placeholder=" Enter password" id="password"> 
+                        <span id="passworderror" style="color: red;"></span>  
+                    </div>
+                  </div>
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                      <div class="form-outline flex-fill mb-0">
+                        <input type="text" class="form-control" name="Confirmed Password" placeholder=" Confirm password" id="cpassword">  
+                        <span id="cpassworderror" style="color: red;"></span>   
+                    </div>
+                  </div>
+
+                 
+  
+                  <div class="d-flex justify-content-end pt-3">
+                      <button type="submit" class="btn btn-light btn-lg">Register</button>
+                                  
+                      <button type="reset" class="btn btn-warning btn-lg ms-2">Reset</button>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <a href="https://docs.google.com/spreadsheets/d/1m16q74URgg265GlXOgRZlQEVGcK0X4rR1grYSwfBc0E/edit?usp=sharing">Check in google sheet</a>
+                  </div>
+                  </form>
+  
+                </div>
+                <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+  
+                  <img src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-registration/draw1.png" class="img-fluid" alt="Sample image">
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<script type="text/javascript" src="js/mainWeb.js">
+
+
+
+            </script>
+
+
+  
+<!---------------------------------------------------------->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>PrintUs</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+   
+      </div>
+    </div>
+  </footer>
+
+
+  <!---------------------------------------------------------->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+ <script src="jquery/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="jquery.easing/jquery.easing.min.js"></script>
+  <script src="php-email-form/validate.js"></script>
+  <script src="isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="venobox/venobox.min.js"></script>
+  <script src="owl.carousel/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>

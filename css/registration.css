@@ -1,0 +1,233 @@
+*{
+      margin: 0;
+      padding:0;
+  
+  
+    }
+
+
+body{
+    background-size: cover;
+    background:url(../img/logss.jpg);
+    width: 100%;
+    height: 800px;
+
+}
+
+    body{
+      background-color:#fff;
+      background-size: cover;
+      background-position: center;
+      font-family: sans-serif;
+
+    }
+
+
+ 
+
+  
+  
+
+    .menu-bar{
+     background:transparent;
+      text-align: center;
+      float: right;
+
+    }
+
+    .menu-bar ul{
+    
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+    }
+
+        .menu-bar ul li{
+          width: 170px;
+          margin-left:2px;
+          margin-top: 5px; 
+          margin-right:2px; 
+          padding:10px;
+
+      }
+
+       .menu-bar ul li a{
+         text-decoration: none;
+        color: black;
+        font-size: 14.5px;
+
+
+        }
+
+        .menu-bar ul li:hover {
+
+          background:#C3DDCA ;
+          border: solid #C3DDCA 9px;
+          border-radius: 2px;
+        }
+    
+    
+      .menu-bar .fa
+          {
+        margin-right: 10px;
+           }
+
+      .sub-menu-1 {
+        display: none;
+
+      }     
+
+      .menu-bar ul li:hover .sub-menu-1
+      {
+        display: block;
+        position: absolute;
+        background: #C3DDCA ; 
+        margin-top: 15px;
+        margin-left: -15px;
+              }
+
+       
+      .menu-bar ul li:hover .sub-menu-1 ul
+      {
+        display: block;
+        margin: 10px;
+      }
+
+        .menu-bar ul li:hover .sub-menu-2 ul li
+      {
+        width: 190px;
+        padding: 20px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0px;
+        margin: 5px;
+        text-align: left;
+      }
+
+ .menu-bar ul li:hover .sub-menu-1 ul li:last-child
+      {
+          border-bottom:none;
+      }
+
+
+ .menu-bar ul li:hover .sub-menu-1 ul li a:hover
+ {
+     color: grey;
+ }
+
+  .sub-menu-2 {
+        display: none;
+
+      }     
+
+      .menu-bar ul li:hover .sub-menu-2
+      {
+        display: block;
+        position: absolute;
+        background:#C3DDCA ;
+        margin-top: 15px;
+        margin-left: -15px;
+              }
+
+       
+      .menu-bar ul li:hover .sub-menu-2 ul
+      {
+        display: block;
+        margin: 10px;
+      }
+
+      .menu-bar ul li:hover .sub-menu-1 ul li
+      {
+        width: 200px;
+        padding: 20px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0px;
+        margin: 5px;
+        text-align: left;
+      }
+
+   .menu-bar ul li:hover .sub-menu-2 ul li:last-child
+      {
+          border-bottom:none;
+      }
+
+
+ .menu-bar ul li:hover .sub-menu-2 ul li a:hover
+ {
+     color: gray;
+ }
+
+
+  .Register_Form {
+      width: 400px;
+      margin: 100px;
+      margin-left:450px; 
+		  border: solid white ;
+      border-radius: 10px;
+      background-color:#E7EBEB; 
+		  overflow: hidden;
+		        	      }
+
+
+         
+  .Register_Form form{
+         	             	 
+         	padding: 20px;
+         	box-shadow: 4px 4px 8px black;
+         }
+
+
+ .Register_Form form h2{
+         font-size: 25px;
+         font-family: monospace;
+         text-align: center;
+         padding: 20px;
+         color: #98D587;
+         }
+
+
+
+ .Register_Form form label{
+              	font-size: 12px;
+               	font-family: Helvatica, sans-serif;
+                text-align: right;
+                padding: 10px;
+
+         }
+
+
+
+               .Register_Form form input{
+               	font-size: 12px;
+               	font-family: Helvatica, sans-serif;
+                padding: 5px;
+                width: 90%;
+                border: none;
+                outline: none;
+
+                margin: 8px;
+                border-radius: 8px;
+                box-shadow: 2px 2px 4px black;
+
+
+
+         }
+
+
+       .Register_Form form button{
+        background-color: gray;
+        color: white;
+        margin: 15px;
+        margin-left:45px; 
+        padding-left: 10px;
+        padding-right:  10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 20px;
+
+        }
+    
+
